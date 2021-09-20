@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ModuleManager">
+    <modules>
+      <module name="Ex01" dirurl="file://$PROJECT_DIR$" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 2017.1.0 (predefined)">
+            <define>UNITY_EDITOR</define>
+            <define>DEBUG</define>
+            <define>TRACE</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp-firstpass" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-name="_6_0" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/Examples/Basics.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/Examples/Basics.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/Examples/Sequences.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/Examples/Sequences.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" />
+              </documentation>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/DOTween.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/DOTween.XML" />
+              </documentation>
+            </library>
+          </orderEntry>
+        </module-layer>
+      </module>
+      <module name="Assembly-UnityScript-firstpass" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-unityscript-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp-Editor" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-name="_6_0" />
+          <extension id="unity3d-nunit-child" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="UnityEditor.UI" />
+          <orderEntry type="dot-net-library" name="nunit.framework" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" />
+              </documentation>
+            </library>
+          </orderEntry>
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-name="_6_0" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Content/3D/Sci Fi Assets/Simple SciFi Gun Turret Set/Scripts/CameraMouseDrag.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Content/3D/Sci Fi Assets/Simple SciFi Gun Turret Set/Scripts/CameraMouseDrag.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/JMO Assets/WarFX/Scripts/CFX_AutoDestructShuriken.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/JMO Assets/WarFX/Scripts/CFX_AutoDestructShuriken.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/JMO Assets/WarFX/Scripts/CFX_LightIntensityFade.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/JMO Assets/WarFX/Scripts/CFX_LightIntensityFade.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/JMO Assets/WarFX/Scripts/WFX_BulletHoleDecal.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/Bullet.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/Bullet.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/CameraFollow.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/CameraFollow.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/Enemy.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/Enemy.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/Follow.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/Follow.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/MainGame.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/MainGame.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/MainMenu.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/MainMenu.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/Player.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/Player.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/PlayerInput.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/PlayerInput.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/Prefabs.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/Prefabs.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/Turret.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/Turret.cs.meta" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/TurretControl.cs" />
+          <content url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Scripts/TurretControl.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-UnityScript-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="dot-net-library" name="UnityEngine.UI" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Networking" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Analytics" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Advertisements" />
+          <orderEntry type="dot-net-library" name="UnityEngine.Purchasing" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" />
+              </documentation>
+            </library>
+          </orderEntry>
+          <orderEntry type="module-library" exported="">
+            <library>
+              <binaries>
+                <root url="netdll://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/DOTween.dll!/" />
+              </binaries>
+              <documentation>
+                <root url="file://$USER_HOME$/School/VR/Ex01/LonelyTurret/Assets/Plugins/Demigiant/DOTween/DOTween.XML" />
+              </documentation>
+            </library>
+          </orderEntry>
+        </module-layer>
+      </module>
+    </modules>
+  </component>
+</project>
